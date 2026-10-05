@@ -172,6 +172,30 @@
   text-decoration-thickness: 4px !important;
 }
 
+.text-theme {
+  color: #1169b6 !important;
+}
+
+.text-theme-light {
+  color: rgba(17, 105, 182, 0.5) !important;
+}
+
+.text-theme-dark {
+  color: rgb(6.6068676717%, 40.8071238546%, 70.7323480146%) !important;
+}
+
+.text-accent {
+  color: #119a7c !important;
+}
+
+.text-accent-light {
+  color: rgba(17, 154, 124, 0.5) !important;
+}
+
+.text-accent-dark {
+  color: rgb(6.5970760234%, 59.761747506%, 48.1198486412%) !important;
+}
+
 .link-text {
   color: #333 !important;
 }
@@ -498,6 +522,30 @@
   background-blend-mode: color-burn !important;
 }
 
+.bg-theme {
+  background-color: #1169b6 !important;
+}
+
+.bg-theme-light {
+  background-color: rgba(17, 105, 182, 0.5) !important;
+}
+
+.bg-theme-dark {
+  background-color: rgb(6.6068676717%, 40.8071238546%, 70.7323480146%) !important;
+}
+
+.bg-accent {
+  background-color: #119a7c !important;
+}
+
+.bg-accent-light {
+  background-color: rgba(17, 154, 124, 0.5) !important;
+}
+
+.bg-accent-dark {
+  background-color: rgb(6.5970760234%, 59.761747506%, 48.1198486412%) !important;
+}
+
 .ratio-1x1 {
   aspect-ratio: 1/1;
 }
@@ -626,6 +674,14 @@
 
 .object-bottom-right {
   object-position: bottom right !important;
+}
+
+.position-relative {
+  position: relative !important;
+}
+
+.section-gradient {
+  background-image: linear-gradient(transparent, #eee);
 }
 
 .d-inline-block {
@@ -3419,6 +3475,737 @@
   outline: none !important;
 }
 
+.hover-text-theme {
+  transition: color 0.25s ease;
+}
+.hover-text-theme:hover {
+  color: #1169b6 !important;
+}
+
+.hover-text-theme-light {
+  transition: color 0.25s ease;
+}
+.hover-text-theme-light:hover {
+  color: rgba(17, 105, 182, 0.65) !important;
+}
+
+.hover-text-theme-dark {
+  transition: color 0.25s ease;
+}
+.hover-text-theme-dark:hover {
+  color: rgb(6.6068676717%, 40.8071238546%, 70.7323480146%) !important;
+}
+
+.hover-text-accent {
+  transition: color 0.25s ease;
+}
+.hover-text-accent:hover {
+  color: #119a7c !important;
+}
+
+.hover-text-accent-light {
+  transition: color 0.25s ease;
+}
+.hover-text-accent-light:hover {
+  color: rgba(17, 154, 124, 0.65) !important;
+}
+
+.hover-text-accent-dark {
+  transition: color 0.25s ease;
+}
+.hover-text-accent-dark:hover {
+  color: rgb(6.5970760234%, 59.761747506%, 48.1198486412%) !important;
+}
+
+.hover-text-light {
+  transition: color 0.25s ease;
+}
+.hover-text-light:hover {
+  color: #f5f5f5 !important;
+}
+
+.hover-text-muted {
+  transition: color 0.25s ease;
+}
+.hover-text-muted:hover {
+  color: #6c757d !important;
+}
+
+.hover-text-black {
+  transition: color 0.25s ease;
+}
+.hover-text-black:hover {
+  color: #000 !important;
+}
+
+.hover-text-current {
+  transition: color 0.25s ease;
+}
+.hover-text-current:hover {
+  color: currentColor !important;
+}
+
+.hover-bg-theme {
+  transition: background-color 0.25s ease;
+}
+.hover-bg-theme:hover {
+  background-color: #1169b6 !important;
+}
+
+.hover-bg-theme-light {
+  transition: background-color 0.25s ease;
+}
+.hover-bg-theme-light:hover {
+  background-color: rgba(17, 105, 182, 0.1) !important;
+}
+
+.hover-bg-accent {
+  transition: background-color 0.25s ease;
+}
+.hover-bg-accent:hover {
+  background-color: #119a7c !important;
+}
+
+.hover-bg-accent-light {
+  transition: background-color 0.25s ease;
+}
+.hover-bg-accent-light:hover {
+  background-color: rgba(17, 154, 124, 0.1) !important;
+}
+
+.hover-bg-white {
+  transition: background-color 0.25s ease;
+}
+.hover-bg-white:hover {
+  background-color: #fff !important;
+}
+
+.hover-bg-light {
+  transition: background-color 0.25s ease;
+}
+.hover-bg-light:hover {
+  background-color: #f5f5f5 !important;
+}
+
+.hover-bg-dark {
+  transition: background-color 0.25s ease;
+}
+.hover-bg-dark:hover {
+  background-color: #333 !important;
+}
+
+.hover-bg-transparent {
+  transition: background-color 0.25s ease;
+}
+.hover-bg-transparent:hover {
+  background-color: transparent !important;
+}
+
+.hover-bg-black-5 {
+  transition: background-color 0.25s ease;
+}
+.hover-bg-black-5:hover {
+  background-color: rgba(0, 0, 0, 0.05) !important;
+}
+
+.hover-bg-black-10 {
+  transition: background-color 0.25s ease;
+}
+.hover-bg-black-10:hover {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+.hover-bg-white-10 {
+  transition: background-color 0.25s ease;
+}
+.hover-bg-white-10:hover {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.hover-border-theme {
+  transition: border-color 0.25s ease;
+}
+.hover-border-theme:hover {
+  border-color: #1169b6 !important;
+}
+
+.hover-border-accent {
+  transition: border-color 0.25s ease;
+}
+.hover-border-accent:hover {
+  border-color: #119a7c !important;
+}
+
+.hover-border-white {
+  transition: border-color 0.25s ease;
+}
+.hover-border-white:hover {
+  border-color: #fff !important;
+}
+
+.hover-border-dark {
+  transition: border-color 0.25s ease;
+}
+.hover-border-dark:hover {
+  border-color: #333 !important;
+}
+
+.hover-border-transparent {
+  transition: border-color 0.25s ease;
+}
+.hover-border-transparent:hover {
+  border-color: transparent !important;
+}
+
+.hover-shadow-theme {
+  transition: box-shadow 0.25s ease;
+}
+.hover-shadow-theme:hover {
+  box-shadow: 0 0 0 3px rgba(17, 105, 182, 0.25) !important;
+}
+
+.hover-shadow-accent {
+  transition: box-shadow 0.25s ease;
+}
+.hover-shadow-accent:hover {
+  box-shadow: 0 0 0 3px rgba(17, 154, 124, 0.25) !important;
+}
+
+.hover-shadow-danger {
+  transition: box-shadow 0.25s ease;
+}
+.hover-shadow-danger:hover {
+  box-shadow: 0 0 0 3px rgba(220, 53, 69, 0.25) !important;
+}
+
+.hover-shadow-success {
+  transition: box-shadow 0.25s ease;
+}
+.hover-shadow-success:hover {
+  box-shadow: 0 0 0 3px rgba(25, 135, 84, 0.25) !important;
+}
+
+.hover-shadow-sm {
+  transition: box-shadow 0.25s ease;
+}
+.hover-shadow-sm:hover {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06) !important;
+}
+
+.hover-shadow-md {
+  transition: box-shadow 0.25s ease;
+}
+.hover-shadow-md:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+}
+
+.hover-shadow-lg {
+  transition: box-shadow 0.25s ease;
+}
+.hover-shadow-lg:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15) !important;
+}
+
+.hover-shadow-xl {
+  transition: box-shadow 0.25s ease;
+}
+.hover-shadow-xl:hover {
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2) !important;
+}
+
+.focus-ring-theme:focus {
+  box-shadow: 0 0 0 3px rgba(17, 105, 182, 0.35) !important;
+  outline: none !important;
+}
+
+.focus-visible-ring-theme:focus-visible {
+  box-shadow: 0 0 0 3px rgba(17, 105, 182, 0.35) !important;
+  outline: none !important;
+}
+
+.focus-ring-accent:focus {
+  box-shadow: 0 0 0 3px rgba(17, 154, 124, 0.35) !important;
+  outline: none !important;
+}
+
+.focus-visible-ring-accent:focus-visible {
+  box-shadow: 0 0 0 3px rgba(17, 154, 124, 0.35) !important;
+  outline: none !important;
+}
+
+.focus-ring-white:focus {
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.35) !important;
+  outline: none !important;
+}
+
+.focus-visible-ring-white:focus-visible {
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.35) !important;
+  outline: none !important;
+}
+
+.focus-ring-dark:focus {
+  box-shadow: 0 0 0 3px rgba(51, 51, 51, 0.35) !important;
+  outline: none !important;
+}
+
+.focus-visible-ring-dark:focus-visible {
+  box-shadow: 0 0 0 3px rgba(51, 51, 51, 0.35) !important;
+  outline: none !important;
+}
+
+.focus-ring-danger:focus {
+  box-shadow: 0 0 0 3px rgba(220, 53, 69, 0.35) !important;
+  outline: none !important;
+}
+
+.focus-visible-ring-danger:focus-visible {
+  box-shadow: 0 0 0 3px rgba(220, 53, 69, 0.35) !important;
+  outline: none !important;
+}
+
+.focus-ring-success:focus {
+  box-shadow: 0 0 0 3px rgba(25, 135, 84, 0.35) !important;
+  outline: none !important;
+}
+
+.focus-visible-ring-success:focus-visible {
+  box-shadow: 0 0 0 3px rgba(25, 135, 84, 0.35) !important;
+  outline: none !important;
+}
+
+.focus-ring-off-mouse:focus:not(:focus-visible) {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.hover-scale-95 {
+  transition: transform 0.25s ease;
+}
+.hover-scale-95:hover {
+  transform: scale(0.95);
+}
+
+.hover-scale-98 {
+  transition: transform 0.25s ease;
+}
+.hover-scale-98:hover {
+  transform: scale(0.98);
+}
+
+.hover-scale-102 {
+  transition: transform 0.25s ease;
+}
+.hover-scale-102:hover {
+  transform: scale(1.02);
+}
+
+.hover-scale-110 {
+  transition: transform 0.25s ease;
+}
+.hover-scale-110:hover {
+  transform: scale(1.1);
+}
+
+.hover-translate-y-1 {
+  transition: transform 0.25s ease;
+}
+.hover-translate-y-1:hover {
+  transform: translateY(-1px);
+}
+
+.hover-translate-y-2 {
+  transition: transform 0.25s ease;
+}
+.hover-translate-y-2:hover {
+  transform: translateY(-2px);
+}
+
+.hover-translate-y-8 {
+  transition: transform 0.25s ease;
+}
+.hover-translate-y-8:hover {
+  transform: translateY(-8px);
+}
+
+.hover-translate-x-2 {
+  transition: transform 0.25s ease;
+}
+.hover-translate-x-2:hover {
+  transform: translateX(2px);
+}
+
+.hover-translate-x-4 {
+  transition: transform 0.25s ease;
+}
+.hover-translate-x-4:hover {
+  transform: translateX(4px);
+}
+
+.hover-translate-x-r-2 {
+  transition: transform 0.25s ease;
+}
+.hover-translate-x-r-2:hover {
+  transform: translateX(-2px);
+}
+
+.hover-translate-x-r-4 {
+  transition: transform 0.25s ease;
+}
+.hover-translate-x-r-4:hover {
+  transform: translateX(-4px);
+}
+
+.hover-opacity-25 {
+  transition: opacity 0.2s ease;
+}
+.hover-opacity-25:hover {
+  opacity: 0.25 !important;
+}
+
+.hover-opacity-50 {
+  transition: opacity 0.2s ease;
+}
+.hover-opacity-50:hover {
+  opacity: 0.5 !important;
+}
+
+.hover-opacity-60 {
+  transition: opacity 0.2s ease;
+}
+.hover-opacity-60:hover {
+  opacity: 0.6 !important;
+}
+
+.hover-opacity-75 {
+  transition: opacity 0.2s ease;
+}
+.hover-opacity-75:hover {
+  opacity: 0.75 !important;
+}
+
+.hover-opacity-80 {
+  transition: opacity 0.2s ease;
+}
+.hover-opacity-80:hover {
+  opacity: 0.8 !important;
+}
+
+.hover-opacity-90 {
+  transition: opacity 0.2s ease;
+}
+.hover-opacity-90:hover {
+  opacity: 0.9 !important;
+}
+
+.hover-opacity-100 {
+  transition: opacity 0.2s ease;
+}
+.hover-opacity-100:hover {
+  opacity: 1 !important;
+}
+
+.active-scale-95 {
+  transition: transform 0.15s ease;
+}
+.active-scale-95:active {
+  transform: scale(0.95);
+}
+
+.active-scale-98 {
+  transition: transform 0.15s ease;
+}
+.active-scale-98:active {
+  transform: scale(0.985);
+}
+
+.active-translate-y-2 {
+  transition: transform 0.15s ease;
+}
+.active-translate-y-2:active {
+  transform: translateY(2px);
+}
+
+.active-shadow-none:active {
+  box-shadow: none !important;
+}
+
+.disabled-opacity-25:disabled {
+  opacity: 0.25 !important;
+}
+
+.disabled-opacity-50:disabled {
+  opacity: 0.5 !important;
+}
+
+.disabled-opacity-65:disabled {
+  opacity: 0.65 !important;
+}
+
+.disabled-cursor-not-allowed:disabled {
+  cursor: not-allowed !important;
+}
+
+.disabled-cursor-default:disabled {
+  cursor: default !important;
+}
+
+.disabled-pointer-none:disabled {
+  pointer-events: none !important;
+}
+
+.hover-cursor-pointer:hover {
+  cursor: pointer !important;
+}
+
+.hover-cursor-default:hover {
+  cursor: default !important;
+}
+
+.hover-cursor-not-allowed:hover {
+  cursor: not-allowed !important;
+}
+
+.hover-cursor-help:hover {
+  cursor: help !important;
+}
+
+.hover-cursor-grab:hover {
+  cursor: grab !important;
+}
+
+.hover-cursor-move:hover {
+  cursor: move !important;
+}
+
+.hover-pointer-none:hover {
+  pointer-events: none !important;
+}
+
+.hover-pointer-auto:hover {
+  pointer-events: auto !important;
+}
+
+.group-hover-opacity-25 {
+  transition: opacity 0.2s ease;
+}
+.group:hover .group-hover-opacity-25 {
+  opacity: 0.25 !important;
+}
+
+.group-hover-opacity-50 {
+  transition: opacity 0.2s ease;
+}
+.group:hover .group-hover-opacity-50 {
+  opacity: 0.5 !important;
+}
+
+.group-hover-opacity-75 {
+  transition: opacity 0.2s ease;
+}
+.group:hover .group-hover-opacity-75 {
+  opacity: 0.75 !important;
+}
+
+.group-hover-opacity-100 {
+  transition: opacity 0.2s ease;
+}
+.group:hover .group-hover-opacity-100 {
+  opacity: 1 !important;
+}
+
+.group-hover-text-theme {
+  transition: color 0.25s ease;
+}
+.group:hover .group-hover-text-theme {
+  color: #1169b6 !important;
+}
+
+.group-hover-text-accent {
+  transition: color 0.25s ease;
+}
+.group:hover .group-hover-text-accent {
+  color: #119a7c !important;
+}
+
+.group-hover-text-white {
+  transition: color 0.25s ease;
+}
+.group:hover .group-hover-text-white {
+  color: #fff !important;
+}
+
+.group-hover-bg-theme-light {
+  transition: background-color 0.25s ease;
+}
+.group:hover .group-hover-bg-theme-light {
+  background-color: rgba(17, 105, 182, 0.1) !important;
+}
+
+.group-hover-bg-accent-light {
+  transition: background-color 0.25s ease;
+}
+.group:hover .group-hover-bg-accent-light {
+  background-color: rgba(17, 154, 124, 0.1) !important;
+}
+
+.group-hover-scale-102 {
+  transition: transform 0.25s ease;
+}
+.group:hover .group-hover-scale-102 {
+  transform: scale(1.02);
+}
+
+.group-hover-scale-105 {
+  transition: transform 0.25s ease;
+}
+.group:hover .group-hover-scale-105 {
+  transform: scale(1.05);
+}
+
+.group-hover-translate-y-2 {
+  transition: transform 0.25s ease;
+}
+.group:hover .group-hover-translate-y-2 {
+  transform: translateY(-2px);
+}
+
+.group-hover-underline {
+  transition: text-decoration 0.25s ease;
+  text-decoration: none;
+}
+.group:hover .group-hover-underline {
+  text-decoration: underline;
+}
+
+.group-hover-lift-md {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.group:hover .group-hover-lift-md {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+.hover-underline-theme {
+  text-decoration: none;
+  transition: text-decoration-color 0.25s ease, text-underline-offset 0.25s ease;
+}
+.hover-underline-theme:hover {
+  text-decoration: underline;
+  text-decoration-color: #1169b6;
+  text-underline-offset: 3px;
+}
+
+.hover-underline-accent {
+  text-decoration: none;
+  transition: text-decoration-color 0.25s ease, text-underline-offset 0.25s ease;
+}
+.hover-underline-accent:hover {
+  text-decoration: underline;
+  text-decoration-color: #119a7c;
+  text-underline-offset: 3px;
+}
+
+.hover-underline-dotted {
+  text-decoration: none;
+  transition: text-decoration-style 0.25s ease;
+}
+.hover-underline-dotted:hover {
+  text-decoration: underline dotted;
+}
+
+.hover-underline-dashed {
+  text-decoration: none;
+  transition: text-decoration-style 0.25s ease;
+}
+.hover-underline-dashed:hover {
+  text-decoration: underline dashed;
+}
+
+.hover-decoration-none:hover {
+  text-decoration: none !important;
+}
+
+.hover-line-through:hover {
+  text-decoration: line-through !important;
+}
+
+.hover-hue-rotate-30 {
+  transition: filter 0.3s ease;
+}
+.hover-hue-rotate-30:hover {
+  filter: hue-rotate(30deg);
+}
+
+.hover-hue-rotate-90 {
+  transition: filter 0.3s ease;
+}
+.hover-hue-rotate-90:hover {
+  filter: hue-rotate(90deg);
+}
+
+.hover-hue-rotate-180 {
+  transition: filter 0.3s ease;
+}
+.hover-hue-rotate-180:hover {
+  filter: hue-rotate(180deg);
+}
+
+.hover-filter-none:hover {
+  filter: none !important;
+}
+
+.hover-ring-theme {
+  transition: box-shadow 0.25s ease;
+}
+.hover-ring-theme:hover {
+  box-shadow: 0 0 0 3px rgba(17, 105, 182, 0.35) !important;
+}
+
+.hover-ring-accent {
+  transition: box-shadow 0.25s ease;
+}
+.hover-ring-accent:hover {
+  box-shadow: 0 0 0 3px rgba(17, 154, 124, 0.35) !important;
+}
+
+.hover-ring-danger {
+  transition: box-shadow 0.25s ease;
+}
+.hover-ring-danger:hover {
+  box-shadow: 0 0 0 3px rgba(220, 53, 69, 0.35) !important;
+}
+
+.hover-ring-success {
+  transition: box-shadow 0.25s ease;
+}
+.hover-ring-success:hover {
+  box-shadow: 0 0 0 3px rgba(25, 135, 84, 0.35) !important;
+}
+
+.hover-lift-shadow-sm {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.hover-lift-shadow-sm:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.hover-lift-shadow-md {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.hover-lift-shadow-md:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.hover-lift-shadow-lg {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.hover-lift-shadow-lg:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.18);
+}
+
 @media (min-width: 576px) {
   .gap-sm-0 {
     gap: 0 !important;
@@ -5145,6 +5932,32 @@
 
 .saturate-amt-100 {
   filter: saturate(100deg) !important;
+}
+
+.pointer-none {
+  cursor: none !important;
+}
+
+.no-pointer {
+  pointer-events: none;
+}
+
+.no-pointer-cascade * {
+  pointer-events: none;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.disable-select {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  outline: 0;
 }
 
 .backdrop-blur-none {
