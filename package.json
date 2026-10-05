@@ -1,6 +1,6 @@
 {
   "name": "@r4ymundo_r4bago/bs4-utilities",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Utilities CSS/SCSS to extends Bootstrap v4",
   "license": "MIT",
   "style": "css/utilities.css",
