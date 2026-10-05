@@ -1,6 +1,6 @@
 {
   "name": "@r4ymundo_r4bago/bs4-utilities",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utilities CSS/SCSS to extends Bootstrap v4",
   "license": "MIT",
   "style": "css/utilities.css",
@@ -39,7 +39,7 @@
     "postcss-cli": "^12.0.0",
     "sass": "^1.77.0"
   },
-    "peerDependencies": {
+  "peerDependencies": {
     "bootstrap": "^4.0.0"
   },
   "peerDependenciesMeta": {
