@@ -90,6 +90,8 @@ $zindex-sticky: 1000;
 .decoration-4          { text-decoration-thickness: 4px !important; }
 
 .text-accent           { color: $accent-color !important; }
+.text-accent-light     { color: rgba($accent-color, 0.5) !important; }
+.text-accent-dark      { color: darken($accent-color, 0.35) !important; }
 
 // Links
 .link-text            { color: $dark !important; }
@@ -195,6 +197,10 @@ $zindex-sticky: 1000;
 .bg-blend-lighten    { background-blend-mode: lighten !important; }
 .bg-blend-color-dodge { background-blend-mode: color-dodge !important; }
 .bg-blend-color-burn { background-blend-mode: color-burn !important; }
+
+.bg-accent { background-color: $accent-color !important; }
+.bg-accent-light { background-color: rgba($accent-color, 0.5) !important; }
+.bg-accent-dark { background-color: darken($accent-color, 0.35) !important; }
 
 // Aspect ratio
 .ratio-1x1   { aspect-ratio: 1/1; }
