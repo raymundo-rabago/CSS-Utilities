@@ -1,0 +1,54 @@
+{
+  "name": "@r4ymundo_r4bago/bs4-utilities",
+  "version": "1.0.0",
+  "description": "Utilities CSS/SCSS to extends Bootstrap v4",
+  "license": "MIT",
+  "style": "css/utilities.css",
+  "sass": "scss/utilities.scss",
+  "exports": {
+    "./css": "./css/utilities.css",
+    "./css/min": "./css/utilities.min.css",
+    "./scss": "./scss/utilities.scss"
+  },
+  "files": [
+    "css/utilities.css",
+    "css/utilities.min.css",
+    "scss/utilities.scss"
+  ],
+  "keywords": [
+    "css",
+    "scss",
+    "sass",
+    "utilities",
+    "bootstrap",
+    "bootstrap4"
+  ],
+  "scripts": {
+    "build:css": "sass scss/utilities.scss css/utilities.css --style=expanded --no-source-map",
+    "build:minify": "postcss css/utilities.css --output css/utilities.min.css",
+    "build": "run-s build:css build:minify",
+    "build:dev": "sass scss/utilities.scss css/utilities.css --style=expanded --source-map",
+    "watch:sass": "sass --watch scss/utilities.scss:css/utilities.css --style=expanded --source-map",
+    "watch:server": "live-server --port=3000 --open=/index.html",
+    "watch": "run-p watch:sass watch:server"
+  },
+  "devDependencies": {
+    "cssnano": "^9.1.2",
+    "live-server": "^1.2.2",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^12.0.0",
+    "sass": "^1.77.0"
+  },
+    "peerDependencies": {
+    "bootstrap": "^4.0.0"
+  },
+  "peerDependenciesMeta": {
+    "bootstrap": {
+      "optional": true
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raymundo-rabago/CSS-Utilities"
+  }
+}
