@@ -3,7 +3,8 @@
 // =========================================================
 
 // ---------- VARIABLES ----------
-$accent-color: #ff5722;
+$theme-color: #1169b6;
+$accent-color: #119a7c;
 
 $white: #fff;
 $light: #f5f5f5;
@@ -21,8 +22,6 @@ $box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 $box-shadow-sm: 0 0 5px rgba(0, 0, 0, 0.1);
 $box-shadow-md: 0 0 20px rgba(0, 0, 0, 0.1);
 $box-shadow-lg: 0 0 30px rgba(0, 0, 0, 0.1);
-
-
 
 $spacer-scale: (
   0: 0,
@@ -88,6 +87,10 @@ $zindex-sticky: 1000;
 .decoration-1          { text-decoration-thickness: 1px !important; }
 .decoration-2          { text-decoration-thickness: 2px !important; }
 .decoration-4          { text-decoration-thickness: 4px !important; }
+
+.text-theme           { color: $theme-color !important; }
+.text-theme-light     { color: rgba($theme-color, 0.5) !important; }
+.text-theme-dark      { color: darken($theme-color, 0.35) !important; }
 
 .text-accent           { color: $accent-color !important; }
 .text-accent-light     { color: rgba($accent-color, 0.5) !important; }
@@ -197,6 +200,10 @@ $zindex-sticky: 1000;
 .bg-blend-lighten    { background-blend-mode: lighten !important; }
 .bg-blend-color-dodge { background-blend-mode: color-dodge !important; }
 .bg-blend-color-burn { background-blend-mode: color-burn !important; }
+
+.bg-theme { background-color: $theme-color !important; }
+.bg-theme-light { background-color: rgba($theme-color, 0.5) !important; }
+.bg-theme-dark { background-color: darken($theme-color, 0.35) !important; }
 
 .bg-accent { background-color: $accent-color !important; }
 .bg-accent-light { background-color: rgba($accent-color, 0.5) !important; }
