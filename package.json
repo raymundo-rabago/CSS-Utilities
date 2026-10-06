@@ -1,13 +1,11 @@
 {
   "name": "@r4ymundo_r4bago/bs4-utilities",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Utilities CSS/SCSS to extends Bootstrap v4",
   "license": "MIT",
-
   "style": "css/utilities.css",
   "sass": "scss/utilities.scss",
   "main": "css/utilities.css",
-
   "exports": {
     ".": {
       "sass": "./scss/utilities.scss",
@@ -21,24 +19,24 @@
     "./scss/*": "./scss/*",
     "./package.json": "./package.json"
   },
-
   "sideEffects": [
     "*.css",
     "**/*.css",
     "*.scss",
     "**/*.scss"
   ],
-
   "files": [
     "css",
     "scss"
   ],
-
   "keywords": [
-    "css", "scss", "sass", "utilities",
-    "bootstrap", "bootstrap4"
+    "css",
+    "scss",
+    "sass",
+    "utilities",
+    "bootstrap",
+    "bootstrap4"
   ],
-
   "scripts": {
     "build:css": "sass scss/utilities.scss css/utilities.css --style=expanded --no-source-map",
     "build:minify": "postcss css/utilities.css --output css/utilities.min.css",
@@ -49,7 +47,6 @@
     "watch": "run-p watch:sass watch:server",
     "prepublishOnly": "npm run build"
   },
-
   "devDependencies": {
     "cssnano": "^9.1.2",
     "live-server": "^1.2.2",
@@ -57,14 +54,14 @@
     "postcss-cli": "^12.0.0",
     "sass": "^1.77.0"
   },
-
   "peerDependencies": {
     "bootstrap": "^4.0.0"
   },
   "peerDependenciesMeta": {
-    "bootstrap": { "optional": true }
+    "bootstrap": {
+      "optional": true
+    }
   },
-
   "repository": {
     "type": "git",
     "url": "https://github.com/raymundo-rabago/CSS-Utilities"
